@@ -1,0 +1,76 @@
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.deps.json
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Components.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Infrastructure.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Components.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Infrastructure.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csprojAssemblyReference.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csproj.CoreCompileInputs.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.AssemblyInfoInputs.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.AssemblyInfo.cs
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csproj.CopyComplete
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.pdb
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.deps.json
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.dll
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.pdb
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Components.dll
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Infrastructure.dll
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Repository.dll
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Services.dll
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Components.pdb
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Services.pdb
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Infrastructure.pdb
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Repository.pdb
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csprojAssemblyReference.cache
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csproj.CoreCompileInputs.cache
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.AssemblyInfoInputs.cache
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.AssemblyInfo.cs
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csproj.CopyComplete
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.dll
+C:\Betway\ParkingForYou\CoreAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.pdb
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.deps.json
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.dll
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.pdb
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\Components.dll
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\Infrastructure.dll
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\Repository.dll
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\Services.dll
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\Components.pdb
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\Services.pdb
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\Infrastructure.pdb
+D:\Office\ParkForYou\API\BackgroundSchedulers\bin\Debug\netstandard2.0\Repository.pdb
+D:\Office\ParkForYou\API\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csprojAssemblyReference.cache
+D:\Office\ParkForYou\API\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csproj.CoreCompileInputs.cache
+D:\Office\ParkForYou\API\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.AssemblyInfoInputs.cache
+D:\Office\ParkForYou\API\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.AssemblyInfo.cs
+D:\Office\ParkForYou\API\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csproj.CopyComplete
+D:\Office\ParkForYou\API\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.dll
+D:\Office\ParkForYou\API\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.pdb
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.deps.json
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.dll
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\BackgroundSchedulers.pdb
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Components.dll
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Infrastructure.dll
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Repository.dll
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Services.dll
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Components.pdb
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Services.pdb
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Infrastructure.pdb
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\bin\Debug\netstandard2.0\Repository.pdb
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csprojAssemblyReference.cache
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csproj.CoreCompileInputs.cache
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.AssemblyInfoInputs.cache
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.AssemblyInfo.cs
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.csproj.CopyComplete
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.dll
+C:\Betway\ParkingForYou\NewAPI\BackgroundSchedulers\obj\Debug\netstandard2.0\BackgroundSchedulers.pdb

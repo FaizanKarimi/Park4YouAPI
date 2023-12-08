@@ -1,0 +1,35 @@
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+C:\Betway\ParkingForYou\CoreAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
+D:\Office\ParkForYou\API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+D:\Office\ParkForYou\API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+D:\Office\ParkForYou\API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+D:\Office\ParkForYou\API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+D:\Office\ParkForYou\API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Office\ParkForYou\API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Office\ParkForYou\API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+D:\Office\ParkForYou\API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+D:\Office\ParkForYou\API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+C:\Betway\ParkingForYou\NewAPI\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb

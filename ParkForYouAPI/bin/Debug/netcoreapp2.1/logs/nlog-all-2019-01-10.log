@@ -1,0 +1,649 @@
+2019-01-10 15:12:50.6069||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 15:12:50.6671||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 15:12:50.7009||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 15:12:50.7229||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 15:12:50.7512||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 15:12:50.7512||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 15:12:50.7512||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 15:12:50.7660||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 15:12:50.7660||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 15:12:50.7660||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 15:12:50.7660||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 15:12:50.7660||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 15:12:50.7660||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 15:12:50.7660||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 15:12:50.7814||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:12:50.8027||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: e6c2d3fe-fae8-4c47-bc50-dbe8c127ab1b 
+2019-01-10 15:12:50.8027||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: e6c2d3fe-fae8-4c47-bc50-dbe8c127ab1b 
+2019-01-10 15:12:50.8027||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: e6c2d3fe-fae8-4c47-bc50-dbe8c127ab1b 
+2019-01-10 15:12:50.9785||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:12:51.0404||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:12:51.0450||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 15:12:51.0450||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:12:51.0692||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:12:51.0789||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 15:12:51.0789||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 15:12:51.0789||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 15:12:51.0933||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 15:12:51.0933||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 15:12:51.0933||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 15:12:51.1121||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 15:12:51.1121||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: e6c2d3fe-fae8-4c47-bc50-dbe8c127ab1b 
+2019-01-10 15:12:51.1309||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:12:51.1381||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 15:12:51.1381||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 15:12:51.1559||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:12:51.1559||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:12:51.1694||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:13:03.9592||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:13:03.9656||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:13:16.7385||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:13:16.7522||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:13:56.8128||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 15:13:56.8792||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 15:13:56.9052||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 15:13:56.9415||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 15:13:57.0123||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 15:13:57.0246||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 15:13:57.0246||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 15:13:57.0246||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 15:13:57.0246||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 15:13:57.0246||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 15:13:57.0246||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 15:13:57.0375||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 15:13:57.0375||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 15:13:57.0375||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 15:13:57.0375||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:13:57.0642||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: 2235723b-895a-4f3b-8849-ba2d44fc142f 
+2019-01-10 15:13:57.0642||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: 2235723b-895a-4f3b-8849-ba2d44fc142f 
+2019-01-10 15:13:57.0677||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: 2235723b-895a-4f3b-8849-ba2d44fc142f 
+2019-01-10 15:13:57.2232||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:13:57.3043||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:13:57.3431||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 15:13:57.3536||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:13:57.3759||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:13:57.3865||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 15:13:57.4026||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 15:13:57.4026||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 15:13:57.4026||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 15:13:57.4221||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 15:13:57.4254||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 15:13:57.4254||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 15:13:57.4431||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: 2235723b-895a-4f3b-8849-ba2d44fc142f 
+2019-01-10 15:13:57.4600||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:13:57.4600||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 15:13:57.5026||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 15:13:57.5026||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:13:57.5346||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:13:57.5552||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:14:04.1893||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:14:04.1893||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:14:04.1893||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:14:04.2260||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:14:05.4445||DEBUG|Components.Services.Implementation.Logging|Message=[User login process started.], EmailAddress=[], Method=[UserLogin], LineNumber=[308] 
+2019-01-10 15:17:17.0742||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 15:17:17.1370||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 15:17:17.1607||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 15:17:17.1899||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 15:17:17.2350||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 15:17:17.2350||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 15:17:17.2350||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 15:17:17.2350||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 15:17:17.2503||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 15:17:17.2503||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 15:17:17.2503||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 15:17:17.2503||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 15:17:17.2503||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 15:17:17.2503||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 15:17:17.2657||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:17:17.2870||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: 2eb45f50-2a1c-4507-9797-d1b3b46b04fb 
+2019-01-10 15:17:17.2870||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: 2eb45f50-2a1c-4507-9797-d1b3b46b04fb 
+2019-01-10 15:17:17.2870||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: 2eb45f50-2a1c-4507-9797-d1b3b46b04fb 
+2019-01-10 15:17:17.3921||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:17:17.4626||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:17:17.4780||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 15:17:17.4884||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:17:17.5099||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:17:17.5192||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 15:17:17.5349||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 15:17:17.5349||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 15:17:17.5349||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 15:17:17.5551||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 15:17:17.5551||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 15:17:17.5733||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 15:17:17.5828||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: 2eb45f50-2a1c-4507-9797-d1b3b46b04fb 
+2019-01-10 15:17:17.6018||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:17:17.6173||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 15:17:17.6830||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:17:17.6895||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 15:17:17.7373||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:17:17.7373||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:17:22.7672||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:17:22.7747||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:17:22.7747||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:17:22.8034||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:17:23.7160||DEBUG|Components.Services.Implementation.Logging|Message=[User login process started.], EmailAddress=[], Method=[UserLogin], LineNumber=[308] 
+2019-01-10 15:17:35.6854||DEBUG|Components.Services.Implementation.Logging|Message=[Updating the user with the mobileNumber: +923028417241], EmailAddress=[], Method=[UserLogin], LineNumber=[322] 
+2019-01-10 15:17:35.6854||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:17:35.7209||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:17:35.9524||DEBUG|Components.Services.Implementation.Logging|Message=[Update device process started.], EmailAddress=[], Method=[Update], LineNumber=[45] 
+2019-01-10 15:17:36.5225||DEBUG|Components.Services.Implementation.Logging|Message=[Updating the user device information with the mobileNumber: +923028417241], EmailAddress=[], Method=[Update], LineNumber=[54] 
+2019-01-10 15:17:36.5608||DEBUG|Components.Services.Implementation.Logging|Message=[Update device process ended.], EmailAddress=[], Method=[Update], LineNumber=[61] 
+2019-01-10 15:17:36.5608||DEBUG|Components.Services.Implementation.Logging|Message=[User login process ended.], EmailAddress=[], Method=[UserLogin], LineNumber=[340] 
+2019-01-10 15:17:44.0985||DEBUG|Components.Services.Implementation.Logging|Message=[User login process started.], EmailAddress=[], Method=[UserLogin], LineNumber=[308] 
+2019-01-10 15:20:38.7633||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 15:20:38.8470||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 15:20:38.8674||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 15:20:38.9014||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 15:20:38.9656||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 15:20:38.9779||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 15:20:38.9779||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 15:20:38.9779||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 15:20:38.9779||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 15:20:38.9779||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 15:20:38.9779||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 15:20:38.9914||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 15:20:38.9914||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 15:20:38.9914||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 15:20:38.9914||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:20:39.0163||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: 869af544-b8ff-4d90-a112-3c1a7079a82c 
+2019-01-10 15:20:39.0163||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: 869af544-b8ff-4d90-a112-3c1a7079a82c 
+2019-01-10 15:20:39.0163||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: 869af544-b8ff-4d90-a112-3c1a7079a82c 
+2019-01-10 15:20:39.1121||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:20:39.1797||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:20:39.1960||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 15:20:39.2176||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:20:39.2708||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:20:39.2807||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 15:20:39.2974||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 15:20:39.2974||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 15:20:39.3036||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 15:20:39.3036||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 15:20:39.3203||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 15:20:39.3203||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 15:20:39.3387||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: 869af544-b8ff-4d90-a112-3c1a7079a82c 
+2019-01-10 15:20:39.3570||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:20:39.3668||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 15:20:39.4159||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 15:20:39.4348||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:20:39.4592||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:20:39.4920||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:20:42.9308||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:20:42.9308||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:20:42.9308||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:20:43.0111||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:20:43.8289||DEBUG|Components.Services.Implementation.Logging|Message=[User login process started.], EmailAddress=[], Method=[UserLogin], LineNumber=[308] 
+2019-01-10 15:20:47.7368||DEBUG|Components.Services.Implementation.Logging|Message=[Exception is: Infrastructure.Exceptions.Park4YouException: USER_INVALID_USERNAME_PASSWORD
+   at ParkForYouAPI.Controllers.AccountController.UserLogin(UserLoginRequest userLoginRequest) in C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\Controllers\AccountController.cs:line 333
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at ParkForYouAPI.Middlewares.CustomMessageHandler.Invoke(HttpContext context) in C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\Middlewares\CustomMessageHandler.cs:line 43], EmailAddress=[], Method=[_HandleExceptionAsync], LineNumber=[77] 
+2019-01-10 15:20:56.6835||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:20:58.5479||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:20:58.5479||DEBUG|Components.Services.Implementation.Logging|Message=[User login process started.], EmailAddress=[], Method=[UserLogin], LineNumber=[308] 
+2019-01-10 15:21:01.8523||DEBUG|Components.Services.Implementation.Logging|Message=[Updating the user with the mobileNumber: +923028417241], EmailAddress=[], Method=[UserLogin], LineNumber=[320] 
+2019-01-10 15:21:02.6963||DEBUG|Components.Services.Implementation.Logging|Message=[Update device process started.], EmailAddress=[], Method=[Update], LineNumber=[45] 
+2019-01-10 15:21:02.9234||DEBUG|Components.Services.Implementation.Logging|Message=[Updating the user device information with the mobileNumber: +923028417241], EmailAddress=[], Method=[Update], LineNumber=[54] 
+2019-01-10 15:21:02.9593||DEBUG|Components.Services.Implementation.Logging|Message=[Update device process ended.], EmailAddress=[], Method=[Update], LineNumber=[61] 
+2019-01-10 15:21:02.9593||DEBUG|Components.Services.Implementation.Logging|Message=[User login process ended.], EmailAddress=[], Method=[UserLogin], LineNumber=[337] 
+2019-01-10 15:21:32.3215||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 15:21:32.3831||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 15:21:32.3959||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 15:21:32.4046||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 15:21:32.4304||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 15:21:32.4416||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 15:21:32.4416||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 15:21:32.4416||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 15:21:32.4416||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 15:21:32.4416||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 15:21:32.4416||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 15:21:32.4533||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 15:21:32.4533||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 15:21:32.4533||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 15:21:32.4533||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:21:32.4798||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: 317b4e72-ef28-4c79-9f1e-4fd20b50ed5f 
+2019-01-10 15:21:32.4798||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: 317b4e72-ef28-4c79-9f1e-4fd20b50ed5f 
+2019-01-10 15:21:32.4828||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: 317b4e72-ef28-4c79-9f1e-4fd20b50ed5f 
+2019-01-10 15:21:32.5447||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:21:32.5631||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:21:32.5631||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 15:21:32.5778||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:21:32.5778||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:21:32.5970||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 15:21:32.5970||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 15:21:32.5970||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 15:21:32.5970||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 15:21:32.6108||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 15:21:32.6108||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 15:21:32.6108||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 15:21:32.6237||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: 317b4e72-ef28-4c79-9f1e-4fd20b50ed5f 
+2019-01-10 15:21:32.6237||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:21:32.6440||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 15:21:32.6582||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 15:21:32.6582||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:21:32.6714||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:21:32.6714||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:21:33.2925||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:21:33.2968||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:21:33.2968||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:21:33.2968||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:21:33.3810||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 15:21:33.3810||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: +923028417241], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 15:21:33.7311||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: +923028417241], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 15:21:33.7343||DEBUG|Components.Services.Implementation.Logging|Message=[Getting roles of the user.], EmailAddress=[], Method=[Login], LineNumber=[377] 
+2019-01-10 15:21:33.7757||DEBUG|Components.Services.Implementation.Logging|Message=[Generating token of user with the username: +923028417241 and role: User], EmailAddress=[], Method=[Login], LineNumber=[379] 
+2019-01-10 15:21:33.8694||DEBUG|Components.Services.Implementation.Logging|Message=[Login process ended.], EmailAddress=[], Method=[Login], LineNumber=[390] 
+2019-01-10 15:21:40.2840||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 15:21:40.3453||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 15:21:40.3661||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 15:21:40.3941||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 15:21:40.4455||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 15:21:40.4569||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 15:21:40.4569||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 15:21:40.4569||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 15:21:40.4569||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 15:21:40.4569||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 15:21:40.4569||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 15:21:40.4708||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 15:21:40.4708||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 15:21:40.4708||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 15:21:40.4708||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:21:40.4965||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: 6abee673-c0e9-47e7-b242-4a9bd0e55d12 
+2019-01-10 15:21:40.4965||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: 6abee673-c0e9-47e7-b242-4a9bd0e55d12 
+2019-01-10 15:21:40.4965||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: 6abee673-c0e9-47e7-b242-4a9bd0e55d12 
+2019-01-10 15:21:40.6230||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:21:40.6872||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 15:21:40.7024||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 15:21:40.7168||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:21:40.7382||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:21:40.7382||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 15:21:40.7641||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 15:21:40.7641||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 15:21:40.7709||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 15:21:40.7864||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 15:21:40.7864||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 15:21:40.8073||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 15:21:40.8158||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: 6abee673-c0e9-47e7-b242-4a9bd0e55d12 
+2019-01-10 15:21:40.8411||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:21:40.8587||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 15:21:40.8846||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:21:40.9119||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 15:21:40.9331||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:21:40.9641||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 15:21:44.9054||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 15:21:44.9054||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 15:21:44.9183||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 15:21:44.9433||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 15:21:45.8217||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 15:21:46.0815||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: +923028417241], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 15:21:47.5227||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: +923028417241], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 15:21:49.1395||DEBUG|Components.Services.Implementation.Logging|Message=[Getting roles of the user.], EmailAddress=[], Method=[Login], LineNumber=[377] 
+2019-01-10 15:21:49.4781||DEBUG|Components.Services.Implementation.Logging|Message=[Generating token of user with the username: +923028417241 and role: User], EmailAddress=[], Method=[Login], LineNumber=[379] 
+2019-01-10 15:21:50.0378||DEBUG|Components.Services.Implementation.Logging|Message=[Login process ended.], EmailAddress=[], Method=[Login], LineNumber=[390] 
+2019-01-10 15:21:54.9526||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 15:21:55.4249||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: +923028417241], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 15:21:56.0710||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: +923028417241], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 15:21:57.6647||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:21:22.4199||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 16:21:22.4988||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 16:21:22.5292||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 16:21:22.5878||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 16:21:22.6623||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 16:21:22.6623||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 16:21:22.6775||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 16:21:22.6775||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 16:21:22.6775||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 16:21:22.6775||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 16:21:22.6775||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 16:21:22.6775||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 16:21:22.6956||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 16:21:22.6956||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 16:21:22.6956||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:21:22.7204||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: 092a90a7-6302-404f-a1ee-3fff6c3b169a 
+2019-01-10 16:21:22.7204||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: 092a90a7-6302-404f-a1ee-3fff6c3b169a 
+2019-01-10 16:21:22.7204||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: 092a90a7-6302-404f-a1ee-3fff6c3b169a 
+2019-01-10 16:21:22.8938||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:21:22.9993||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:21:23.0206||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 16:21:23.0206||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:21:23.0638||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:21:23.0745||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 16:21:23.0966||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 16:21:23.0979||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 16:21:23.0979||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 16:21:23.1175||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 16:21:23.1175||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 16:21:23.1323||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 16:21:23.1323||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: 092a90a7-6302-404f-a1ee-3fff6c3b169a 
+2019-01-10 16:21:23.1564||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:21:23.1696||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 16:21:23.1880||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 16:21:23.1880||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:21:23.2447||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:21:23.2710||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:21:37.0271||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:21:37.0430||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:21:37.2595||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:21:37.2595||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:21:37.2595||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:21:37.2835||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:21:38.2862||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 16:21:38.5864||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 16:21:40.8744||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 16:22:19.9195||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:22:19.9398||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:22:20.1049||DEBUG|Components.Services.Implementation.Logging|Message=[Exception is: Infrastructure.Exceptions.Park4YouException: USER_INVALID_USERNAME_PASSWORD
+   at ParkForYouAPI.Controllers.AccountController.Login(LoginRequest loginRequest) in C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\Controllers\AccountController.cs:line 386
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at ParkForYouAPI.Middlewares.CustomMessageHandler.Invoke(HttpContext context) in C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\Middlewares\CustomMessageHandler.cs:line 43], EmailAddress=[], Method=[_HandleExceptionAsync], LineNumber=[77] 
+2019-01-10 16:22:23.0087||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 16:22:23.0087||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 16:22:23.0242||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:22:35.0615||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:22:35.0819||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:22:48.9246||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:22:48.9457||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:23:04.2202||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 16:23:04.5522||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 16:23:05.6537||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:23:05.7141||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 16:23:05.7141||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:24:14.0924||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 16:24:14.1771||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 16:24:14.2145||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 16:24:14.2533||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 16:24:14.3082||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 16:24:14.3226||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 16:24:14.3226||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 16:24:14.3226||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 16:24:14.3226||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 16:24:14.3226||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 16:24:14.3226||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 16:24:14.3385||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 16:24:14.3385||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 16:24:14.3385||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 16:24:14.3385||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:24:14.3699||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: d1c1b14b-fd35-4ac0-9a2f-e7b7f5a472c7 
+2019-01-10 16:24:14.3699||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: d1c1b14b-fd35-4ac0-9a2f-e7b7f5a472c7 
+2019-01-10 16:24:14.3699||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: d1c1b14b-fd35-4ac0-9a2f-e7b7f5a472c7 
+2019-01-10 16:24:14.4777||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:24:14.5792||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:24:14.5986||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 16:24:14.5986||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:24:14.6401||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:24:14.6507||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 16:24:14.6737||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 16:24:14.6737||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 16:24:14.6737||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 16:24:14.6958||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 16:24:14.6958||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 16:24:14.7133||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 16:24:14.7211||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: d1c1b14b-fd35-4ac0-9a2f-e7b7f5a472c7 
+2019-01-10 16:24:14.7410||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:24:14.7569||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 16:24:14.7837||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 16:24:14.7970||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:24:14.8239||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:24:14.8411||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:24:23.5875||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:24:23.5924||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:24:23.5924||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:24:23.6197||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:24:24.6554||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 16:24:24.9840||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 16:24:26.6238||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 16:24:48.4178||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 16:24:48.4860||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 16:24:48.5088||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 16:24:48.5442||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 16:24:48.6148||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 16:24:48.6279||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 16:24:48.6279||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 16:24:48.6279||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 16:24:48.6341||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 16:24:48.6341||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 16:24:48.6341||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 16:24:48.6341||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 16:24:48.6513||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 16:24:48.6513||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 16:24:48.6513||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:24:48.6782||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: 9b2438ef-bd78-4872-b953-a327bbd412b1 
+2019-01-10 16:24:48.6782||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: 9b2438ef-bd78-4872-b953-a327bbd412b1 
+2019-01-10 16:24:48.6782||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: 9b2438ef-bd78-4872-b953-a327bbd412b1 
+2019-01-10 16:24:48.7827||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:24:48.8607||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:24:48.8850||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 16:24:48.8988||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:24:48.9289||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:24:48.9404||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 16:24:48.9594||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 16:24:48.9594||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 16:24:48.9594||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 16:24:48.9814||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 16:24:48.9854||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 16:24:48.9854||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 16:24:49.0065||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: 9b2438ef-bd78-4872-b953-a327bbd412b1 
+2019-01-10 16:24:49.0262||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:24:49.0262||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 16:24:49.0893||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 16:24:49.1063||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:24:49.1525||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:24:49.1652||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:24:52.6601||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:24:52.6723||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:24:52.6723||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:24:52.7360||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:24:53.8367||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 16:24:54.1802||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 16:24:55.6813||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 16:24:57.6827||DEBUG|Components.Services.Implementation.Logging|Message=[Getting roles of the user.], EmailAddress=[], Method=[Login], LineNumber=[379] 
+2019-01-10 16:30:00.8716||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 16:30:00.9436||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 16:30:00.9700||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 16:30:01.0055||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 16:30:01.0567||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 16:30:01.0700||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 16:30:01.0700||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 16:30:01.0700||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 16:30:01.0700||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 16:30:01.0700||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 16:30:01.0700||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 16:30:01.0874||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 16:30:01.0874||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 16:30:01.0874||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 16:30:01.0874||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:30:01.1155||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: ecf23297-517f-4951-8791-fccfd2515f36 
+2019-01-10 16:30:01.1155||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: ecf23297-517f-4951-8791-fccfd2515f36 
+2019-01-10 16:30:01.1155||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: ecf23297-517f-4951-8791-fccfd2515f36 
+2019-01-10 16:30:01.2318||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:30:01.3094||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:30:01.3311||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 16:30:01.3420||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:30:01.3639||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:30:01.3733||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 16:30:01.3905||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 16:30:01.3905||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 16:30:01.3905||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 16:30:01.4112||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 16:30:01.4112||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 16:30:01.4268||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 16:30:01.4344||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: ecf23297-517f-4951-8791-fccfd2515f36 
+2019-01-10 16:30:01.4544||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:30:01.4544||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 16:30:01.5344||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 16:30:01.5513||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:30:01.5818||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:30:01.6287||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:30:03.7599||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:30:03.7599||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:30:03.7740||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:30:03.8128||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:30:03.8951||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 16:30:03.8951||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 16:30:04.3476||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 16:30:04.6488||DEBUG|Components.Services.Implementation.Logging|Message=[Exception is: Infrastructure.Exceptions.Park4YouException: USER_INVALID_USERNAME_PASSWORD
+   at ParkForYouAPI.Controllers.AccountController.Login(LoginRequest loginRequest) in C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\Controllers\AccountController.cs:line 386
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at ParkForYouAPI.Middlewares.CustomMessageHandler.Invoke(HttpContext context) in C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\Middlewares\CustomMessageHandler.cs:line 43], EmailAddress=[], Method=[_HandleExceptionAsync], LineNumber=[77] 
+2019-01-10 16:30:14.0659||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 16:30:14.3715||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 16:30:15.5237||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 16:31:48.5701||INFO|Quartz.Util.DBConnectionManager|Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider' 
+2019-01-10 16:31:48.6422||INFO|Quartz.Impl.StdSchedulerFactory|Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json 
+2019-01-10 16:31:48.6699||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2019-01-10 16:31:48.7198||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2019-01-10 16:31:48.7672||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2019-01-10 16:31:48.7789||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate 
+2019-01-10 16:31:48.7789||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate 
+2019-01-10 16:31:48.7789||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate 
+2019-01-10 16:31:48.7789||DEBUG|Quartz.Impl.AdoJobStore.StdAdoDelegate|Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate 
+2019-01-10 16:31:48.7789||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Using thread monitor-based data access locking (synchronization). 
+2019-01-10 16:31:48.7789||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|JobStoreTX initialized. 
+2019-01-10 16:31:48.7938||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+ 
+2019-01-10 16:31:48.7938||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'QuartzScheduler' initialized 
+2019-01-10 16:31:48.7938||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2019-01-10 16:31:48.7938||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:31:48.8196||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is desired by: c980cd33-0754-4aa0-8e26-47aad1a9d4b8 
+2019-01-10 16:31:48.8196||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' is being obtained: c980cd33-0754-4aa0-8e26-47aad1a9d4b8 
+2019-01-10 16:31:48.8196||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' given to: c980cd33-0754-4aa0-8e26-47aad1a9d4b8 
+2019-01-10 16:31:48.9382||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:31:49.0112||DEBUG|Quartz.SQL|Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2) 
+2019-01-10 16:31:49.0266||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Freed 0 triggers from 'acquired' / 'blocked' state. 
+2019-01-10 16:31:49.0381||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:31:49.0601||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:31:49.0707||DEBUG|Quartz.SQL|Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery 
+2019-01-10 16:31:49.0909||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovering 0 jobs that were in-progress at the time of the last shut-down. 
+2019-01-10 16:31:49.0909||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Recovery complete. 
+2019-01-10 16:31:49.0987||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state 
+2019-01-10 16:31:49.1138||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 'complete' triggers. 
+2019-01-10 16:31:49.1138||DEBUG|Quartz.SQL|Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' 
+2019-01-10 16:31:49.1296||INFO|Quartz.Impl.AdoJobStore.JobStoreTX|Removed 0 stale fired job entries. 
+2019-01-10 16:31:49.1296||DEBUG|Quartz.Impl.AdoJobStore.SimpleSemaphore|Lock 'TRIGGER_ACCESS' returned by: c980cd33-0754-4aa0-8e26-47aad1a9d4b8 
+2019-01-10 16:31:49.1546||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:31:49.1693||DEBUG|Quartz.Impl.AdoJobStore.MisfireHandler|Scanning for misfires... 
+2019-01-10 16:31:49.1951||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:31:49.1951||DEBUG|Quartz.SQL|Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 
+2019-01-10 16:31:49.2604||DEBUG|Quartz.Impl.AdoJobStore.JobStoreTX|Found 0 triggers that missed their scheduled fire-time. 
+2019-01-10 16:31:49.2604||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:31:55.9127||INFO|Quartz.Core.QuartzScheduler|JobFactory set to: BackgroundSchedulers.JobFactory 
+2019-01-10 16:31:55.9127||INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2019-01-10 16:31:55.9127||DEBUG|Quartz.SQL|Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC 
+2019-01-10 16:31:55.9427||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2019-01-10 16:31:56.9093||DEBUG|Components.Services.Implementation.Logging|Message=[Login process started.], EmailAddress=[], Method=[Login], LineNumber=[367] 
+2019-01-10 16:31:57.1884||DEBUG|Components.Services.Implementation.Logging|Message=[Getting user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[369] 
+2019-01-10 16:31:58.5416||DEBUG|Components.Services.Implementation.Logging|Message=[Password sign for the user with the username: info@park4youserver.com], EmailAddress=[], Method=[Login], LineNumber=[373] 
+2019-01-10 16:32:00.8287||DEBUG|Components.Services.Implementation.Logging|Message=[Getting roles of the user.], EmailAddress=[], Method=[Login], LineNumber=[379] 
+2019-01-10 16:32:01.1598||DEBUG|Components.Services.Implementation.Logging|Message=[Generating token of user with the username: info@park4youserver.com and role: Admin], EmailAddress=[], Method=[Login], LineNumber=[381] 
+2019-01-10 16:32:01.9944||DEBUG|Components.Services.Implementation.Logging|Message=[Login process ended.], EmailAddress=[], Method=[Login], LineNumber=[392] 

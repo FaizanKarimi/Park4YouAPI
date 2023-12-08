@@ -1,0 +1,124 @@
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Languages\en-us.json
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\HtmlTemplates\BillReciept.html
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkingReports\Dummy.txt
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.deps.json
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.runtimeconfig.json
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.runtimeconfig.dev.json
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BackgroundSchedulers.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BusinessOperations.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Components.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Infrastructure.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Repository.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BackgroundSchedulers.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BusinessOperations.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Components.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Infrastructure.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csprojAssemblyReference.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csproj.CoreCompileInputs.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorAssemblyInfo.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorAssemblyInfo.cs
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.AssemblyInfoInputs.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.AssemblyInfo.cs
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorTargetAssemblyInfo.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csproj.CopyComplete
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.pdb
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\nlog.config
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Languages\en-us.json
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\HtmlTemplates\BillReciept.html
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkingReports\Dummy.txt
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.deps.json
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.runtimeconfig.json
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.runtimeconfig.dev.json
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.dll
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.pdb
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BackgroundSchedulers.dll
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BusinessOperations.dll
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Components.dll
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Infrastructure.dll
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Repository.dll
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Services.dll
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BackgroundSchedulers.pdb
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BusinessOperations.pdb
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Components.pdb
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Infrastructure.pdb
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csprojAssemblyReference.cache
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csproj.CoreCompileInputs.cache
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorAssemblyInfo.cache
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorAssemblyInfo.cs
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.AssemblyInfoInputs.cache
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.AssemblyInfo.cs
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorTargetAssemblyInfo.cache
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csproj.CopyComplete
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.dll
+C:\Betway\ParkingForYou\CoreAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.pdb
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\nlog.config
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Languages\en-us.json
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\HtmlTemplates\BillReciept.html
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkingReports\Dummy.txt
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.deps.json
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.runtimeconfig.json
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.runtimeconfig.dev.json
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.dll
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.pdb
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\BackgroundSchedulers.dll
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\BusinessOperations.dll
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Components.dll
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Infrastructure.dll
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Repository.dll
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Services.dll
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\BackgroundSchedulers.pdb
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\BusinessOperations.pdb
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Components.pdb
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Repository.pdb
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Infrastructure.pdb
+D:\Office\ParkForYou\API\ParkForYouAPI\bin\Debug\netcoreapp2.1\Services.pdb
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csprojAssemblyReference.cache
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csproj.CoreCompileInputs.cache
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorAssemblyInfo.cache
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorAssemblyInfo.cs
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.AssemblyInfoInputs.cache
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.AssemblyInfo.cs
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorTargetAssemblyInfo.cache
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csproj.CopyComplete
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.dll
+D:\Office\ParkForYou\API\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.pdb
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\nlog.config
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Languages\en-us.json
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\HtmlTemplates\BillReciept.html
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkingReports\Dummy.txt
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.deps.json
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.runtimeconfig.json
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.runtimeconfig.dev.json
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.dll
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\ParkForYouAPI.pdb
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BackgroundSchedulers.dll
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BusinessOperations.dll
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Components.dll
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Infrastructure.dll
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Repository.dll
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Services.dll
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BackgroundSchedulers.pdb
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\BusinessOperations.pdb
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Components.pdb
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Infrastructure.pdb
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csprojAssemblyReference.cache
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csproj.CoreCompileInputs.cache
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorAssemblyInfo.cache
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorAssemblyInfo.cs
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.AssemblyInfoInputs.cache
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.AssemblyInfo.cs
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.RazorTargetAssemblyInfo.cache
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.csproj.CopyComplete
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.dll
+C:\Betway\ParkingForYou\NewAPI\ParkForYouAPI\obj\Debug\netcoreapp2.1\ParkForYouAPI.pdb

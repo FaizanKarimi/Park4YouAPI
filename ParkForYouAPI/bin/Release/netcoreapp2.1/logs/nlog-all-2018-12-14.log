@@ -1,0 +1,22 @@
+2018-12-14 11:51:56.1104||DEBUG|Components.Services.Implementation.Logging|Message=[Parking price process started.], EmailAddress=[muhammad.awais@sixlogics.com], Method=[GetParkingPrice], LineNumber=[110] 
+2018-12-14 11:51:56.1509||DEBUG|Components.Services.Implementation.Logging|Message=[Getting parkinglot with the id: 23], EmailAddress=[muhammad.awais@sixlogics.com], Method=[GetParkingPrice], LineNumber=[115] 
+2018-12-14 11:51:56.1736||DEBUG|Components.Services.Implementation.Logging|Message=[Getting the parking lot with the id: 23], EmailAddress=[muhammad.awais@sixlogics.com], Method=[Get], LineNumber=[50] 
+2018-12-14 11:51:56.2641||DEBUG|Components.Services.Implementation.Logging|Message=[Exception is: Infrastructure.Exceptions.Park4YouException: PARKING_LOT_NOT_EXIST
+   at Services.Implementations.ParkingLotService.Get(Int32 id) in C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Services\Implementations\ParkingLotService.cs:line 76
+   at BusinessOperations.Implementations.BOParkingLot.GetParkingPrice(Int32 parkingLotId, Int32 minutes) in C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\Implementations\BOParkingLot.cs:line 116
+   at ParkForYouAPI.Controllers.PriceController.CheckPrice(PriceCheckRequest priceCheckRequest) in C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\Controllers\PriceController.cs:line 30
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at ParkForYouAPI.Middlewares.CustomMessageHandler.Invoke(HttpContext context) in C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\Middlewares\CustomMessageHandler.cs:line 44], EmailAddress=[muhammad.awais@sixlogics.com], Method=[_HandleExceptionAsync], LineNumber=[77] 

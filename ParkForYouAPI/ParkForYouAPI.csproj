@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HtmlTemplates\BillReciept.html" />
+    <None Remove="ParkingReports\Dummy.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="HtmlTemplates\BillReciept.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ParkingReports\Dummy.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ProfileReports\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="NSwag.AspNetCore" Version="11.20.1" />
+    <PackageReference Include="NSwag.Core" Version="11.20.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackgroundSchedulers\BackgroundSchedulers.csproj" />
+    <ProjectReference Include="..\BusinessOperations\BusinessOperations.csproj" />
+    <ProjectReference Include="..\Components\Components.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Languages\en-us.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

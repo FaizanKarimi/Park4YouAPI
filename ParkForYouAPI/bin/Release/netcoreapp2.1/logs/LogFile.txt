@@ -1,0 +1,100 @@
+2018-11-20 18:34:23.9290 Default Quartz.NET properties loaded from embedded resource file
+2018-11-20 18:34:24.0249 TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-11-20 18:34:24.0347 Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-11-20 18:34:24.0522 Quartz Scheduler v.3.0.7.0 created.
+2018-11-20 18:34:24.0522 RAMJobStore initialized.
+2018-11-20 18:34:24.0627 Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-11-20 18:34:24.0627 Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-11-20 18:34:24.0627 Quartz scheduler version: 3.0.7.0
+2018-11-20 18:34:24.0776 Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-11-20 18:34:24.0776 Batch acquisition of 0 triggers
+2018-11-20 18:34:24.0776 Message=[Register auto stop parking process started.], EmailAddress=[], Method=[RegisterAutoStopParkings], LineNumber=[373]
+2018-11-20 18:34:24.1890 Message=[Count of already registered started parking is: 0], EmailAddress=[], Method=[RegisterAutoStopParkings], LineNumber=[375]
+2018-11-20 18:34:24.1890 Message=[Register auto stop parking process ended.], EmailAddress=[], Method=[RegisterAutoStopParkings], LineNumber=[382]
+2018-11-20 18:34:47.2195 Batch acquisition of 0 triggers
+2018-11-20 18:35:11.4794 Batch acquisition of 0 triggers
+2018-11-20 18:35:35.1577 Batch acquisition of 0 triggers
+2018-11-20 18:36:03.3800 Batch acquisition of 0 triggers
+2018-11-20 18:36:31.1851 Batch acquisition of 0 triggers
+2018-12-14 11:51:56.1104 Message=[Parking price process started.], EmailAddress=[muhammad.awais@sixlogics.com], Method=[GetParkingPrice], LineNumber=[110]
+2018-12-14 11:51:56.1509 Message=[Getting parkinglot with the id: 23], EmailAddress=[muhammad.awais@sixlogics.com], Method=[GetParkingPrice], LineNumber=[115]
+2018-12-14 11:51:56.1736 Message=[Getting the parking lot with the id: 23], EmailAddress=[muhammad.awais@sixlogics.com], Method=[Get], LineNumber=[50]
+2018-12-14 11:51:56.2641 Message=[Exception is: Infrastructure.Exceptions.Park4YouException: PARKING_LOT_NOT_EXIST
+   at Services.Implementations.ParkingLotService.Get(Int32 id) in C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\Services\Implementations\ParkingLotService.cs:line 76
+   at BusinessOperations.Implementations.BOParkingLot.GetParkingPrice(Int32 parkingLotId, Int32 minutes) in C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\Implementations\BOParkingLot.cs:line 116
+   at ParkForYouAPI.Controllers.PriceController.CheckPrice(PriceCheckRequest priceCheckRequest) in C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\Controllers\PriceController.cs:line 30
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at ParkForYouAPI.Middlewares.CustomMessageHandler.Invoke(HttpContext context) in C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\ParkForYouAPI\Middlewares\CustomMessageHandler.cs:line 44], EmailAddress=[muhammad.awais@sixlogics.com], Method=[_HandleExceptionAsync], LineNumber=[77]
+2018-12-28 16:50:07.5493 Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2018-12-28 16:50:07.6285 Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json
+2018-12-28 16:50:07.6488 TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-12-28 16:50:12.7214 Registering datasource 'SR-53\MSSQL' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2018-12-28 16:50:12.7780 Using object serializer: Quartz.Simpl.JsonObjectSerializer, Quartz.Serialization.Json
+2018-12-28 16:50:12.7780 TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-12-28 16:50:12.7999 Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-12-28 16:50:12.8284 Quartz Scheduler v.3.0.7.0 created.
+2018-12-28 16:50:12.8284 Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate
+2018-12-28 16:50:12.8284 Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate
+2018-12-28 16:50:12.8409 Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate
+2018-12-28 16:50:12.8409 Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate
+2018-12-28 16:50:12.8409 Using thread monitor-based data access locking (synchronization).
+2018-12-28 16:50:12.8409 JobStoreTX initialized.
+2018-12-28 16:50:12.8409 Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2018-12-28 16:50:12.8409 Quartz scheduler 'QuartzScheduler' initialized
+2018-12-28 16:50:12.8409 Quartz scheduler version: 3.0.7.0
+2018-12-28 16:50:12.8409 JobFactory set to: BackgroundSchedulers.JobFactory
+2018-12-28 16:50:12.8723 Lock 'TRIGGER_ACCESS' is desired by: 00619dc1-a9e0-4d91-b011-dc007af6ef31
+2018-12-28 16:50:12.8723 Lock 'TRIGGER_ACCESS' is being obtained: 00619dc1-a9e0-4d91-b011-dc007af6ef31
+2018-12-28 16:50:12.8723 Lock 'TRIGGER_ACCESS' given to: 00619dc1-a9e0-4d91-b011-dc007af6ef31
+2018-12-28 16:50:12.9264 Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2)
+2018-12-28 16:50:12.9444 Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = 'QuartzScheduler' AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2)
+2018-12-28 16:50:12.9444 Freed 0 triggers from 'acquired' / 'blocked' state.
+2018-12-28 16:50:12.9597 Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC
+2018-12-28 16:50:12.9704 Found 0 triggers that missed their scheduled fire-time.
+2018-12-28 16:50:12.9704 Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery
+2018-12-28 16:50:12.9835 Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2018-12-28 16:50:12.9835 Recovery complete.
+2018-12-28 16:50:12.9835 Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state
+2018-12-28 16:50:12.9835 Removed 0 'complete' triggers.
+2018-12-28 16:50:12.9835 Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler'
+2018-12-28 16:50:12.9986 Removed 0 stale fired job entries.
+2018-12-28 16:50:12.9986 Lock 'TRIGGER_ACCESS' returned by: 00619dc1-a9e0-4d91-b011-dc007af6ef31
+2018-12-28 16:50:13.0162 Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2018-12-28 16:50:13.0162 JobFactory set to: BackgroundSchedulers.JobFactory
+2018-12-28 16:50:13.0162 Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2018-12-28 16:50:13.0162 Scanning for misfires...
+2018-12-28 16:50:13.0379 Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1
+2018-12-28 16:50:13.0379 Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC
+2018-12-28 16:50:13.0459 Found 0 triggers that missed their scheduled fire-time.
+2018-12-28 16:50:13.0459 Batch acquisition of 0 triggers
+2018-12-28 16:50:13.0839 JobFactory set to: BackgroundSchedulers.JobFactory
+2018-12-28 16:50:13.0839 Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2018-12-28 16:50:13.0839 Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'QuartzScheduler' AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC
+2018-12-28 16:50:13.0839 Batch acquisition of 0 triggers

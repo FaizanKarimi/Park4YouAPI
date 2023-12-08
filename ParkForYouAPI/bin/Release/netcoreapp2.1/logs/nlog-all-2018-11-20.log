@@ -1,0 +1,25 @@
+2018-11-20 18:34:23.9290||INFO|Quartz.Impl.StdSchedulerFactory|Default Quartz.NET properties loaded from embedded resource file 
+2018-11-20 18:34:24.0249||DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler. 
+2018-11-20 18:34:24.0347||INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2018-11-20 18:34:24.0522||INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler v.3.0.7.0 created. 
+2018-11-20 18:34:24.0522||INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized. 
+2018-11-20 18:34:24.0627||INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+ 
+2018-11-20 18:34:24.0627||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'DefaultQuartzScheduler' initialized 
+2018-11-20 18:34:24.0627||INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.0.7.0 
+2018-11-20 18:34:24.0776||INFO|Quartz.Core.QuartzScheduler|Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started. 
+2018-11-20 18:34:24.0776||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2018-11-20 18:34:24.0776||DEBUG|Components.Services.Implementation.Logging|Message=[Register auto stop parking process started.], EmailAddress=[], Method=[RegisterAutoStopParkings], LineNumber=[373] 
+2018-11-20 18:34:24.1890||DEBUG|Components.Services.Implementation.Logging|Message=[Count of already registered started parking is: 0], EmailAddress=[], Method=[RegisterAutoStopParkings], LineNumber=[375] 
+2018-11-20 18:34:24.1890||DEBUG|Components.Services.Implementation.Logging|Message=[Register auto stop parking process ended.], EmailAddress=[], Method=[RegisterAutoStopParkings], LineNumber=[382] 
+2018-11-20 18:34:47.2195||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2018-11-20 18:35:11.4794||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2018-11-20 18:35:35.1577||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2018-11-20 18:36:03.3800||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2018-11-20 18:36:31.1851||DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 

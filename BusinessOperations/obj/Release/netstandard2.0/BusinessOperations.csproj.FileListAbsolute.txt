@@ -1,0 +1,88 @@
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.deps.json
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\BackgroundSchedulers.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Components.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Infrastructure.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Repository.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Services.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\BackgroundSchedulers.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Components.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Infrastructure.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Services.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Repository.pdb
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\bin\Release\netstandard2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csprojAssemblyReference.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csproj.CoreCompileInputs.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.AssemblyInfoInputs.cache
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.AssemblyInfo.cs
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csproj.CopyComplete
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.dll
+C:\Users\faizan.karimi\Documents\Visual Studio 2017\Projects\ParkForYouAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.pdb
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.deps.json
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.pdb
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\BackgroundSchedulers.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Components.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Infrastructure.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Repository.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Services.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\BackgroundSchedulers.pdb
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Components.pdb
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Infrastructure.pdb
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Services.pdb
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Repository.pdb
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\bin\Release\netstandard2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csprojAssemblyReference.cache
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csproj.CoreCompileInputs.cache
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.AssemblyInfoInputs.cache
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.AssemblyInfo.cs
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csproj.CopyComplete
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.dll
+C:\Betway\ParkingForYou\CoreAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.pdb
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.deps.json
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.dll
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.pdb
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\BackgroundSchedulers.dll
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\Components.dll
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\Infrastructure.dll
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\Repository.dll
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\Services.dll
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\BackgroundSchedulers.pdb
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\Components.pdb
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\Infrastructure.pdb
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\Services.pdb
+D:\Office\ParkForYou\API\BusinessOperations\bin\Release\netstandard2.0\Repository.pdb
+D:\Office\ParkForYou\API\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csprojAssemblyReference.cache
+D:\Office\ParkForYou\API\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csproj.CoreCompileInputs.cache
+D:\Office\ParkForYou\API\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.AssemblyInfoInputs.cache
+D:\Office\ParkForYou\API\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.AssemblyInfo.cs
+D:\Office\ParkForYou\API\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csproj.CopyComplete
+D:\Office\ParkForYou\API\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.dll
+D:\Office\ParkForYou\API\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.pdb
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.deps.json
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.dll
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\BusinessOperations.pdb
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\BackgroundSchedulers.dll
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\Components.dll
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\Infrastructure.dll
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\Repository.dll
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\Services.dll
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\BackgroundSchedulers.pdb
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\Components.pdb
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\Infrastructure.pdb
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\Services.pdb
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\bin\Release\netstandard2.0\Repository.pdb
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csprojAssemblyReference.cache
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csproj.CoreCompileInputs.cache
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.AssemblyInfoInputs.cache
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.AssemblyInfo.cs
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.csproj.CopyComplete
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.dll
+C:\Betway\ParkingForYou\NewAPI\BusinessOperations\obj\Release\netstandard2.0\BusinessOperations.pdb
